@@ -23,6 +23,8 @@
 		8D396DDA2632FA470067DECA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DD92632FA470067DECA /* APIService.swift */; };
 		8D396DE02632FD340067DECA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DDF2632FD340067DECA /* CardView.swift */; };
 		8D396DE82632FF390067DECA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DE72632FF390067DECA /* SafariView.swift */; };
+		8D396DEE263302BA0067DECA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DED263302BA0067DECA /* HomeViewModel.swift */; };
+		8D396DF6263309280067DECA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DF5263309280067DECA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		8D396DD92632FA470067DECA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		8D396DDF2632FD340067DECA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8D396DE72632FF390067DECA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		8D396DED263302BA0067DECA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8D396DF5263309280067DECA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		8D396D8A2632F4210067DECA /* SwiftUIGitHubAPI */ = {
 			isa = PBXGroup;
 			children = (
+				8D396DEC263302890067DECA /* Home */,
 				8D396DDE2632FCDA0067DECA /* ViewConpoments */,
 				8D396DCE2632F9210067DECA /* Service */,
 				8D396DBE2632F72F0067DECA /* Models */,
@@ -182,6 +187,15 @@
 				8D396DE72632FF390067DECA /* SafariView.swift */,
 			);
 			path = ViewConpoments;
+			sourceTree = "<group>";
+		};
+		8D396DEC263302890067DECA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8D396DED263302BA0067DECA /* HomeViewModel.swift */,
+				8D396DF5263309280067DECA /* Home.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +334,9 @@
 				8D396DD02632F9740067DECA /* APIServiceError.swift in Sources */,
 				8D396DC02632F7460067DECA /* Owner.swift in Sources */,
 				8D396DE02632FD340067DECA /* CardView.swift in Sources */,
+				8D396DF6263309280067DECA /* Home.swift in Sources */,
 				8D396DC52632F76A0067DECA /* Repository.swift in Sources */,
+				8D396DEE263302BA0067DECA /* HomeViewModel.swift in Sources */,
 				8D396D8E2632F4210067DECA /* SceneDelegate.swift in Sources */,
 				8D396D902632F4210067DECA /* ContentView.swift in Sources */,
 				8D396DDA2632FA470067DECA /* APIService.swift in Sources */,
