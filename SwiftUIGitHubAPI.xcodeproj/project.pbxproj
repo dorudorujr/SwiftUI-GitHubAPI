@@ -21,6 +21,8 @@
 		8D396DD02632F9740067DECA /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DCF2632F9740067DECA /* APIServiceError.swift */; };
 		8D396DD52632F9FA0067DECA /* SearchRepositoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DD42632F9FA0067DECA /* SearchRepositoryRequest.swift */; };
 		8D396DDA2632FA470067DECA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DD92632FA470067DECA /* APIService.swift */; };
+		8D396DE02632FD340067DECA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DDF2632FD340067DECA /* CardView.swift */; };
+		8D396DE82632FF390067DECA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D396DE72632FF390067DECA /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		8D396DCF2632F9740067DECA /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
 		8D396DD42632F9FA0067DECA /* SearchRepositoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryRequest.swift; sourceTree = "<group>"; };
 		8D396DD92632FA470067DECA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8D396DDF2632FD340067DECA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8D396DE72632FF390067DECA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		8D396D8A2632F4210067DECA /* SwiftUIGitHubAPI */ = {
 			isa = PBXGroup;
 			children = (
+				8D396DDE2632FCDA0067DECA /* ViewConpoments */,
 				8D396DCE2632F9210067DECA /* Service */,
 				8D396DBE2632F72F0067DECA /* Models */,
 				8D396D8B2632F4210067DECA /* AppDelegate.swift */,
@@ -168,6 +173,15 @@
 				8D396DD92632FA470067DECA /* APIService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		8D396DDE2632FCDA0067DECA /* ViewConpoments */ = {
+			isa = PBXGroup;
+			children = (
+				8D396DDF2632FD340067DECA /* CardView.swift */,
+				8D396DE72632FF390067DECA /* SafariView.swift */,
+			);
+			path = ViewConpoments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,9 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D396DCA2632F7A40067DECA /* SearchRepositoryResponse.swift in Sources */,
+				8D396DE82632FF390067DECA /* SafariView.swift in Sources */,
 				8D396D8C2632F4210067DECA /* AppDelegate.swift in Sources */,
 				8D396DD02632F9740067DECA /* APIServiceError.swift in Sources */,
 				8D396DC02632F7460067DECA /* Owner.swift in Sources */,
+				8D396DE02632FD340067DECA /* CardView.swift in Sources */,
 				8D396DC52632F76A0067DECA /* Repository.swift in Sources */,
 				8D396D8E2632F4210067DECA /* SceneDelegate.swift in Sources */,
 				8D396D902632F4210067DECA /* ContentView.swift in Sources */,
